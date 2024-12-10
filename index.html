@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      ``
+      `````
+      `
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body style="font-family: Arial, sans-serif; letter-spacing: -0.2px">
+    <div class="bg-body-secondary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand pe-3" href="https://www.flipkart.com/">
+            <img src="./assets/flipkartlogo1.png" style="height: 2.5rem; " />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <div
+              class="input-group w-50 align-content-center rounded bg-primary-subtle border"
+            >
+              <a class="pt-1 px-3">
+                <i
+                  class="mt-1 d-md-flex d-sm-none d-lg-flex"
+                  data-feather="search"
+                ></i>
+              </a>
+              <input
+                type="text"
+                class="form-check p-2 border-0 bg-transparent w-75"
+                placeholder=" Search for Products, Brands and More"
+              />
+            </div>
+            <div class=" ">
+              <ul
+                class="navbar-nav me-auto my-2 navbar-nav-scroll"
+                aria-current="page "
+                style="
+                  --bs-scroll-height: 250px;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-evenly;
+                "
+              >
+                <li class="nav-item dropdown row d-flex align-content-center">
+                  <i class="col mt-2 ps-5 pe-0" data-feather="user"></i>
+                  <a
+                    class="nav-link dropdown-toggle col"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Login
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">New Customer?</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">My profile</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Flipkar Plus Zone</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Orders</a></li>
+                    <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                    <li><a class="dropdown-item" href="#">Rewards</a></li>
+                    <li><a class="dropdown-item" href="#">Gift-Cards</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item row d-flex align-content-center">
+                  <i
+                    class="col mt-2 ps-5 pe-0"
+                    data-feather="shopping-cart"
+                  ></i>
+                  <a class="nav-link active col" aria-current="page" href="#"
+                    >Cart</a
+                  >
+                </li>
+                <li class="nav-item row d-flex align-content-center">
+                  <i class="col mt-2 ps-5 pe-0" data-feather="briefcase"></i>
+                  <a class="nav-link col-8" href="#">Become a Seller</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="row pt-3 pb-2 m-2 gap-4 d-none d-lg-flex d-md-flex d-flex justify-content-center bg-white"
+      >
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_3de10498-ae9c-436d-8333-bae15d3a1dc1_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1"
+            class="text-decoration-none text-black"
+            ><img src="./assets/fourth.jpg" class="img-fluid" /> Grocery</a
+          >
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_fb343805-9b3b-40af-a37b-323a6c4c4de3_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J"
+            class="text-decoration-none text-black"
+            ><img src="./assets/first.jpg" class="img-fluid" /> Mobiles</a
+          >
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_daf81ced-e95f-4920-8ba5-72a1a007666d_1_372UD5BXDFYS_MC.6XNZG1FYFBZT&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BTop%2BWear_6XNZG1FYFBZT&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=6XNZG1FYFBZT"
+            class="text-decoration-none text-black"
+            ><img src="./assets/fashion.jpg" class="img-fluid" /> Fashion</a
+          >
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/electronics-best-offers-store?fm=neo%2Fmerchandising&iid=M_12e627ea-9be1-42f4-93a9-9f7bfd32ac5d_1_372UD5BXDFYS_MC.KV8NA7Z3WYHI&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Electronics~Audio_KV8NA7Z3WYHI&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=KV8NA7Z3WYHI"
+            class="text-decoration-none text-black"
+            ><img src="./assets/electronics.jpg" class="img-fluid" />
+            electronics</a
+          >
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/india-ka-furniture-studio-store?fm=neo%2Fmerchandising&iid=M_79b2b366-2e54-4c7c-bfb6-c8cfb07de294_1_372UD5BXDFYS_MC.Q6I8NGK1VUG9&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Home%2BFurnishings_Q6I8NGK1VUG9&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=Q6I8NGK1VUG9"
+            class="ps-2 text-decoration-none text-black"
+            ><img src="./assets/homefurniture.jpg" class="img-fluid" /> Home &
+            Furniture</a
+          >
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/tvs-and-appliances-new-clp-store?fm=neo%2Fmerchandising&iid=M_f14ea7f4-8bef-4db2-992b-1654e363fc75_1_372UD5BXDFYS_MC.LO4IWVHA61BX&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Appliances_LO4IWVHA61BX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=LO4IWVHA61BX"
+            class="text-decoration-none text-black"
+          >
+            <img src="./assets/second.jpg" class="img-fluid" /> Appliances</a
+          >
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_2246d3d5-175a-4c2e-9df8-bb27ad5c6ce7_1_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=V4ZPKTOAO321"
+            class="ps-1 text-center text-decoration-none text-black"
+            ><img src="./assets/third.jpg" class="img-fluid" /> Travel</a
+          >
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&otracker=categorytree&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_89dadc39-1c57-4127-bfa3-4b23832aaa7b_1_372UD5BXDFYS_MC.RXB0XORLSZ1I&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Beauty%2B%2526%2BPersonal%2BCare_RXB0XORLSZ1I&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=RXB0XORLSZ1I"
+            class="text-center pe-4 text-decoration-none text-black"
+          >
+            <img src="./assets/beauty.jpg" class="img-fluid" />
+            Beauty, Toys & More
+          </a>
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.flipkart.com/two-wheelers-store?fm=neo%2Fmerchandising&iid=M_869bfda8-f0fa-458e-aaa7-33ee4c8d9678_1_372UD5BXDFYS_MC.SCJPZ04TFJJM&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Two%2BWheelers~Petrol%2BVehicles_SCJPZ04TFJJM&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=SCJPZ04TFJJM"
+            class="ps-3 text-decoration-none text-black"
+            ><img src="./assets/bike.jpg" class="img-fluid" /> Two Wheeler</a
+          >
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide m-2">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a
+              href="https://www.flipkart.com/tyy/4io/~cs-8x94gv5fh4/pr?sid=tyy,4io&collection-tab-name=OPPO+K12x+5G&pageCriteria=default&param=235345"
+            >
+              <img
+                src="./assets/sliderfirst.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://www.flipkart.com/travel/flights?param=TravelDT-TravelDT-HPW-FKINT"
+            >
+              <img
+                src="./assets/slidersecond.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://www.flipkart.com/travel/flights?param=TravelDT-HPW-FLYFK-5X-refund-booknow-dontmiss"
+            >
+              <img
+                src="./assets/sliderthird.jpg"
+                class="d-block w-100"
+                alt="..."
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://www.flipkart.com/travel/flights?param=TravelDT-HPW-Malaysia-FLYMH-dontmiss"
+            >
+              <img
+                src="./assets/sliderforth.jpg"
+                class="d-block w-100"
+                alt="..."
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://www.flipkart.com/travel/flights?param=TravelDT-HPW-Malaysia-FLYMH-dontmiss"
+            >
+              <img
+                src="./assets/sliderfifth.jpg"
+                class="d-block w-100"
+                alt="..."
+            /></a>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="m-2 row d-flex bg-white">
+        <div class="mb-3 mt-3 fs-1 ps-3">
+          <h4>Best Of Electronics</h4>
+        </div>
+        <div class="col-lg-9 col-12 col-md-12 col-sm-12">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper1.png" class="img-fluid" style="height: 200px;" />
+                  <p class="text-center text-black">
+                    Best TrueWireless Headphones
+                  </p>
+                  <p class="text-center fw-semibold">Grab Now</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href=" https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper2.png" class="img-fluid" style="height: 200px;" />
+                  <p class="text-center">Best Selling Mobile Speakers</p>
+                  <p class="text-center fw-semibold">From ₹2336</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper3.png" class="img-fluid" style="height: 224px;" />
+                  <p class="text-center">Boat Smart Watches</p>
+                  <p class="text-center fw-semibold">From ₹499*</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper4.png" class="img-fluid" style="height: 224px;" />
+                  <p class="text-center">View Sonic Monitors</p>
+                  <p class="text-center fw-semibold">From ₹8000</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper5.png" class="img-fluid" style="height: 224px;" />
+                  <p class="text-center">Best in class Trimmers</p>
+                  <p class="text-center fw-semibold">From ₹6599</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                > 
+                  <img src="./assets/swipper6.png" class="img-fluid" style="height: 224px;" />
+                  <p class="text-center">Printers</p>
+                  <p class="text-center fw-semibold">From ₹2336</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper1.png" class="img-fluid" style="height: 200px;"/>
+                  <p class="text-center">Best TrueWireless Headphones</p>
+                  <p class="text-center fw-semibold">Grab Now</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper2.png" class="img-fluid" style="height: 200px;"/>
+                  <p class="text-center">Best Selling Mobile Speakers</p>
+                  <p class="text-center fw-semibold">Grab Now</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper3.png" class="img-fluid" style="height: 224px;"/>
+                  <p class="text-center">Boat Smart Watches</p>
+                  <p class="text-center fw-semibold">Grab Now</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper4.png" class="img-fluid" style="height: 224px;"/>
+                  <p class="text-center">View Sonic Monitors</p>
+                  <p class="text-center fw-semibold">Grab Now</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper5.png" class="img-fluid" style="height: 224px;" />
+                  <p class="text-center">Best in class Trimmers</p>
+                  <p class="text-center fw-semibold">Grab Now</p></a
+                >
+              </div>
+              <div
+                class="swiper-slide border border-secondary-emphasis overflow-hidden"
+              >
+                <a
+                  class="text-decoration-none text-black row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+                  href="https://www.flipkart.com/wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DNoise&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=464245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMDk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTm9pc2UgU21hcnR3YXRjaGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XR0VIN1ZHWU1HQ1AzViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D"
+                >
+                  <img src="./assets/swipper6.png" class="img-fluid" style="height: 224px;"/>
+                  <p class="text-center">Printers</p>
+                  <p class="text-center fw-semibold">Grab Now</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img
+          class="col ps-3"
+          src="./assets/airindia.jpg"
+          height="350px"
+          width="150px"
+        />
+      </div>
+      <div class="row m-2 pt-2 bg-white pb-2">
+        <div class="mb-3 mt-3 fs-1 ps-3">
+          <h4>Beauty, Food, Toys & More</h4>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center border"
+            >
+              <img src="./assets/s2.png" class="img-fluid" />
+              <p class="text-center">Geared Cycle</p>
+              <p class="text-center fw-semibold">Upto 70% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s23.png" class="img-fluid" />
+              <p class="text-center">Remote Control Toys</p>
+              <p class="text-center fw-semibold">Upto 80% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s24.png" class="img-fluid" />
+              <p class="text-center">Coffee Powders</p>
+              <p class="text-center fw-semibold">upto 80% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s25.png" class="img-fluid" />
+              <p class="text-center">Musical Keyboards</p>
+              <p class="text-center fw-semibold">Upto 70% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s26.png" class="img-fluid" />
+              <p class="text-center">Yoga Mat</p>
+              <p class="text-center fw-semibold">From ₹159</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s27.png" class="img-fluid" />
+              <p class="text-center">Tea Powder</p>
+              <p class="text-center fw-semibold">Upto 75% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s28.png" class="img-fluid" />
+              <p class="text-center">Self Help Books</p>
+              <p class="text-center fw-semibold">Upto 70% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s2.png" class="img-fluid" />
+              <p class="text-center">Geared Cycle</p>
+              <p class="text-center fw-semibold">Upto 70% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s23.png" class="img-fluid" />
+              <p class="text-center">Remote Control Toys</p>
+              <p class="text-center fw-semibold">Upto 80% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s24.png" class="img-fluid" />
+              <p class="text-center">Coffee Powders</p>
+              <p class="text-center fw-semibold">upto 80% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s25.png" class="img-fluid" />
+              <p class="text-center">Musical Keyboards</p>
+              <p class="text-center fw-semibold">Upto 70% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/s26.png" class="img-fluid" />
+              <p class="text-center">Yoga Mat</p>
+              <p class="text-center fw-semibold">From ₹159</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="bg-white pt-2 pb-3">
+        <div class="inner">
+          <div class="mb-3 mt-3 fs-1 ps-3">
+            <h4>Best gadgets & Appliances</h4>
+          </div>
+          <div
+            class="d-flex gap-4 flex-md-row flex-column align-items-md-start align-items-center"
+          >
+            <div class="col-md-4 col-11">
+              <div class="row row-cols-1 row-cols-md-2 g-2 d-flex">
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./assets/card1.png"
+                      class="card-img-top img-fluid"
+                      style="height: 224px;"
+                      alt="..."
+                    />
+                    <div
+                      class="card-body text-center text-lg-start text-md-start"
+                    >
+                      <p class="card-title">True Wireless</p>
+                      <p class="text-success fw-semibold">MIN 50% OFF</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./assets/card2.png"
+                      class="card-img-top"
+                      style="height: 224px;"
+                      alt="..."
+                    />
+                    <div
+                      class="card-body text-center text-lg-start text-md-start"
+                    >
+                      <p class="card-title">Smart Watches</p>
+                      <p class="text-success fw-semibold">MIN 50% OFF</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./assets/card3.png"
+                      class="card-img-top"
+                      style="height: 224px;"
+                      alt="..."
+                    />
+                    <div
+                      class="card-body text-center text-lg-start text-md-start"
+                    >
+                      <p class="card-title">Trimmers</p>
+                      <p class="text-success fw-semibold">MIN 50% OFF</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./assets/card4.png"
+                      class="card-img-top"
+                      style="height: 224px;"
+                      alt="..."
+                    />
+                    <div
+                      class="card-body text-center text-lg-start text-md-start"
+                    >
+                      <p class="card-title">Headsets</p>
+                      <p class="text-success fw-semibold">MIN 50% OFF</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-10 col-md-8 col-10">
+              <div class="inner">
+                <div class="overflow-hidden">
+                  <img
+                    src="./assets/cardimg.png"
+                    height="700px"
+                    width="950px"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="m-2 bg-white pt-2 pb-2">
+        <div class="mb-3 mt-3 fs-1 ps-3">
+          <h4>Furniture</h4>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f1.png" class="img-fluid" style="height: 224px;" />
+              <p class="text-center">Mattresses</p>
+              <p class="text-center fw-semibold">From ₹2,990</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f6.png" class="img-fluid" style="height: 224px;" />
+              <p class="text-center">Sofa and Sectional</p>
+              <p class="text-center fw-semibold">From ₹7,999</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f3.png" class="img-fluid" style="height: 224px;" />
+              <p class="text-center">Office Study Chairs</p>
+              <p class="text-center fw-semibold">From ₹1,890</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f4.png" class="img-fluid" style="height: 224px;"/>
+              <p class="text-center">Beds</p>
+              <p class="text-center fw-semibold">From ₹1,790</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f5.png" class="img-fluid" style="height: 224px;" />
+              <p class="text-center">TV Units</p>
+              <p class="text-center fw-semibold">From ₹1,249</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f6.png" class="img-fluid" style="height: 224px;"/>
+              <p class="text-center">Outdoor Chairs</p>
+              <p class="text-center fw-semibold">From ₹990</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f1.png" class="img-fluid" style="height: 224px;"/>
+              <p class="text-center">Mattresses</p>
+              <p class="text-center fw-semibold">From ₹2,990</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f6.png" class="img-fluid" style="height: 224px;"/>
+              <p class="text-center">Sofa and Sectional</p>
+              <p class="text-center fw-semibold">From ₹7,999</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f3.png" class="img-fluid" style="height: 224px;"/>
+              <p class="text-center">Office Study Chairs</p>
+              <p class="text-center fw-semibold">From ₹1,890</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f4.png" class="img-fluid" style="height: 224px;"/>
+              <p class="text-center">Beds</p>
+              <p class="text-center fw-semibold">From ₹1,790</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f5.png" class="img-fluid" style="height: 224px;"/>
+              <p class="text-center">TV Units</p>
+              <p class="text-center fw-semibold">From ₹1,249</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f6.png" class="img-fluid" style="height: 224px;"/>
+              <p class="text-center">Outdoor Chairs</p>
+              <p class="text-center fw-semibold">From ₹990</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="m-2 bg-white pt-2 pb-2">
+        <div class="mb-3 mt-3 fs-1 ps-3">
+          <h4>Fashion Top Deals</h4>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f21.png" class="img-fluid" />
+              <p class="text-center">Panty</p>
+              <p class="text-center fw-semibold">Under ₹299</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f22.png" class="img-fluid" />
+              <p class="text-center">Woman Bra</p>
+              <p class="text-center fw-semibold">From ₹99</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f23.png" class="img-fluid" />
+              <p class="text-center">Woman's Shirt</p>
+              <p class="text-center fw-semibold">Min 70% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f24.png" class="img-fluid" />
+              <p class="text-center">Track Pants</p>
+              <p class="text-center fw-semibold">From ₹299</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f25.png" class="img-fluid" />
+              <p class="text-center">Best Selling Styles</p>
+              <p class="text-center fw-semibold">Min. 40% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f26.png" class="img-fluid" />
+              <p class="text-center">W, Biba, Aurelia...</p>
+              <p class="text-center fw-semibold">60%-80% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f21.png" class="img-fluid" />
+              <p class="text-center">Panty</p>
+              <p class="text-center fw-semibold">Under ₹299</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f22.png" class="img-fluid" />
+              <p class="text-center">Woman Bra</p>
+              <p class="text-center fw-semibold">From ₹99</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f23.png" class="img-fluid" />
+              <p class="text-center">Woman's Shirt</p>
+              <p class="text-center fw-semibold">Min 70% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f24.png" class="img-fluid" />
+              <p class="text-center">Track Pants</p>
+              <p class="text-center fw-semibold">From ₹299</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f25.png" class="img-fluid" />
+              <p class="text-center">Best Selling Styles</p>
+              <p class="text-center fw-semibold">Min. 40% Off</p>
+            </div>
+            <div
+              class="swiper-slide border overflow-hidden row d-flex justify-content-md-center justify-content-sm-center justify-content-center"
+            >
+              <img src="./assets/f26.png" class="img-fluid" />
+              <p class="text-center">W, Biba, Aurelia...</p>
+              <p class="text-center fw-semibold">60%-80% Off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row px-5 pt-4 bg-black pb-5">
+      <div class="col gap-0">
+        <p style="font-size: 13px; color: #878787">ABOUT</p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Contact Us
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          About Us
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Careers
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Flipkar Stories
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Press
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Corporate Information
+        </p>
+      </div>
+      <div class="col gap-0">
+        <p style="font-size: 13px; color: #878787">GROUP COMPANIES</p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Myntra
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Cleartrip
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Shopsy
+        </p>
+      </div>
+      <div class="col">
+        <p style="font-size: 13px; color: #878787">HELP</p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Payments
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Shipping
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Cancellation & Returns
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          FAQ
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Report Infringment
+        </p>
+      </div>
+      <div class="col">
+        <p style="font-size: 13px; color: #878787">CONSUMER POLICY</p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Cancellation & Returns
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Terms of use
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Security
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Privacy
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Sitemap
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Grievance Redressal
+        </p>
+        <p
+          class="p-0 m-0 text-white fw-semibold"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          EPR Compliance
+        </p>
+      </div>
+      <div class="col border-start">
+        <p style="font-size: 13px; color: #878787">Mail Us</p>
+
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Flipkart Internet Private Limited,
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Clove Embassy Tech Village,
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Outer Ring Road, Devarabeesanahalli Village,
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Bengaluru, 560103,
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Karnataka, India
+        </p>
+        <p class="pt-2" style="font-size: 13px; color: #878787">Social:</p>
+        <i class="text-white" data-feather="facebook"></i>
+        <i class="text-white" data-feather="x"></i>
+        <i class="text-white" data-feather="youtube"></i>
+      </div>
+
+      <div class="col">
+        <p style="font-size: 13px; color: #878787">Registered Office Address</p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Flipkart Internet Private Limited,
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Buildings Alyssa, Begonia &amp;
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Clove Embassy Tech Village,
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Outer Ring Road, Devarabeesanahalli Village,
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Bengaluru, 560103,
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Karnataka, India
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          CIN : U51109KA2012PTC066107
+        </p>
+        <p
+          class="p-0 m-0 text-white"
+          style="
+            font-size: 12px;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial,
+              sans-serif;
+            line-height: 17px;
+          "
+        >
+          Telephone:<a href="tel:044-45614700">044-45614700</a> /
+          <a href="tel:044-67415800">044-67415800</a>
+        </p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
